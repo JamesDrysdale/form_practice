@@ -34,4 +34,21 @@ input, textarea {
     /*Uniform text field size */
     width: 300px;
     box-sizing: border-box;
+
+    /* Match form field borders */
+    border: 1px solid #999;
 }   
+
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* Provide more space to enter text */
+    height: 5em;
+}
